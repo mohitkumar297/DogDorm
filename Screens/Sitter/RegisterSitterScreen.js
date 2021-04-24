@@ -6,8 +6,6 @@ import RNPickerSelect from 'react-native-picker-select';
 import axios from 'axios'
 import * as ImagePicker from 'expo-image-picker';
 import { ScrollView } from 'react-native-gesture-handler';
-// import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete';
-
 
 const RegisterSitterScreen = ({ navigation }) => {
 
@@ -179,15 +177,6 @@ const RegisterSitterScreen = ({ navigation }) => {
                         { label: 'Any Dog', value: 'Any Dog' },
                     ]}
                 />
-                {/* <GooglePlacesAutocomplete
-                    placeholder="Search"
-                    query={{
-                        key: 'AIzaSyCy6W-UgXUyFM55Cagw1GUvecJIwuTSJsk',
-                        language: 'en',
-                    }}
-                    onPress={(data, details = null) => console.log(data)}
-                    onFail={(error) => console.error(error)}
-                /> */}
                 <InputText placeholder="Experience" textChange={experienceChange} />
                 <Button btnText='Register' btnClick={handleClick} />
             </ScrollView>

@@ -127,13 +127,3 @@ const pickerStyle = {
     }
 };
 export default HomeScreen
-
-{/* <GooglePlacesAutocomplete
-        placeholder="Search"
-        query={{
-          key: 'AIzaSyCy6W-UgXUyFM55Cagw1GUvecJIwuTSJsk',
-          language: 'en', 
-        }}
-        onPress={(data, details = null) => console.log(data)}
-        onFail={(error) => console.error(error)}
-      /> */}
